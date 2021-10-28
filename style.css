@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  background: url(/images/background.svg);
+  background: url(./images/background.svg);
   width: 375px;
   height: 812px;
 }
@@ -36,7 +36,7 @@ main {
   position: relative;
 }
 
-.avatar span {
+.stamp {
   position: absolute;
   top: -10px;
   left: -15px;
