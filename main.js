@@ -1,7 +1,7 @@
 const LinksSocialMedia = {
   github: 'maracujanna',
   youtube: 'jakelinygracielly',
-  facebook: 'maykbrito',
+  facebook: 'janna',
   instagram: 'janna_brilyantova',
   twitter: 'jakelinytec'
 }
@@ -9,7 +9,6 @@ const LinksSocialMedia = {
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
     const social = li.getAttribute('class')
-
     li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
   }
 }
